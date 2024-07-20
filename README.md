@@ -20,3 +20,12 @@ A RegExp object is used to match pattern it also contains flags to change how ma
 Literal notation compiles when the expression is evaluated. Best used when the pattern will remain constant.
 
 Object constructor compiles at runtime. Best used when the RegExp object changes, or the pattern is obtained during runtime.
+
+
+|RegExp Properties||
+|:---:|:---:|
+|Property |	Description|
+|.flags |	Returns a string containing the flags of the RegExp object.|
+
+
+
