@@ -22,7 +22,7 @@ Literal notation compiles when the expression is evaluated. Best used when the p
 Object constructor compiles at runtime. Best used when the RegExp object changes, or the pattern is obtained during runtime.
 
 
-|RegExp | Properties|
+|***RegExp*** | ***PROPERTIES***|
 |:---:|:---:|
 |Property |	Description|
 |.flags |	Returns a string containing the flags of the RegExp object.|
