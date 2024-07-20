@@ -26,6 +26,10 @@ Object constructor compiles at runtime. Best used when the RegExp object changes
 |:---:|:---:|
 |Property |	Description|
 |.flags |	Returns a string containing the flags of the RegExp object.|
+|***RegExp***| ***METHODS***|
+|:---:|:---:|
+|Method|	Description|
+|.exec(str)|	Execute a search on its str string parameter|
 
 
 
