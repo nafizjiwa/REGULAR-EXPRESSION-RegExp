@@ -48,6 +48,21 @@ Object constructor compiles at runtime. Best used when the RegExp object changes
 
     // Create a RegExp object that performs a global, case-insensitive, multiline search
 
+## Regular Expressions
+Characters used to define a Regular Expression STRING.
+
+These match the boundaries between characters, not the characters themselves.
+
+|Characters	Meaning||
+|^|	Matches the beginning of input. In multiline search, matches immediately after a line break character|
+|$|	Matches the end of input. In multiline search matches immediately before a line break character|
+|\b|	Matches a word boundary. Point where a word character is not followed by a word character,
+||or the point where a word character is not preceded by another word character|
+|\B|	Matches a non-word boundary. Point where preceding and following character are of the same type|
+
+
+https://www.codecademy.com/resources/docs/javascript/regexp?page_ref=catalog
+
 
 
 
