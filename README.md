@@ -61,6 +61,16 @@ These match the boundaries between characters, not the characters themselves.
 ||or the point where a word character is not preceded by another word character|
 |\B|	Matches a non-word boundary. Point where preceding and following character are of the same type|
 
+##### Match a character or expression based on what follows or precedes it.
+
+|Characters|Meaning|
+|:--:|:--:|
+|x(?=y)	|Match x only if x is immediately followed by y. y is not part of the match results|
+|x(?!y)	|Match x only if x is not immediately followed by y. y is not part of the match results|
+|(?<=y)x |Match x only if x is immediately preceded by y. y is not part of the match results|
+|(?<!y)x |Match x only if x is not immediately preceded by y. y is not part of the match results|
+
+
 
 https://www.codecademy.com/resources/docs/javascript/regexp?page_ref=catalog
 
