@@ -31,13 +31,24 @@ Object constructor compiles at runtime. Best used when the RegExp object changes
 |.exec(str)|	Execute a search on its str string parameter|
 |***RegExp***| ***FLAGS***|
 | The flags |change the default match behavior of the RegExp object|
+
 |Flag|	Description|
+|:---:|:---:|
 |g|	Performs a global match, finding all matches rather than just the first.|
 |i|	Makes matches case-insensitive. Matches both uppercase and lowercase.|
 |m|	Performs multiline matches. (Changes behavior of ^,$)|
 |s|	Allows . to match newline characters.|
 |u|	Enables Unicode support.|
 |y|Matches are sticky, looking only at exact position in the text.|
+
+##### USAGE
+
+    let re1 = /foo?/gim;
+    let re2 = new RegExp('foo?', 'gim');
+
+    // Create a RegExp object that performs a global, case-insensitive, multiline search
+
+
 
 
 
