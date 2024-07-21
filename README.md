@@ -29,9 +29,10 @@ Object constructor compiles at runtime. Best used when the RegExp object changes
 |***RegExp***| ***METHODS***|
 |Method|	Description|
 |.exec(str)|	Execute a search on its str string parameter|
-|***RegExp***| ***FLAGS***|
-| The flags |change the default match behavior of the RegExp object|
 
+|***RegExp***| ***FLAGS***|
+|:---:|:---:|
+| The flags |change the default match behavior of the RegExp object|
 |Flag|	Description|
 |:---:|:---:|
 |g|	Performs a global match, finding all matches rather than just the first.|
