@@ -70,6 +70,17 @@ These match the boundaries between characters, not the characters themselves.
 |(?<=y)x |Match x only if x is immediately preceded by y. y is not part of the match results|
 |(?<!y)x |Match x only if x is not immediately preceded by y. y is not part of the match results|
 
+###### USAGE
+        let str = 'Sally sells seashells by the seashore';
+        
+        let re = /s(?=e)/gi;
+        console.log(str.replace(re, 'x'));
+        // Output: Sally xells xeashells by the xeashore
+        
+        re = /s(?!e)/gi;
+        console.log(str.replace(re, 'x'));
+        // Output: xally sellx seaxhellx by the seaxhore
+
 
 
 https://www.codecademy.com/resources/docs/javascript/regexp?page_ref=catalog
