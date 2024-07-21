@@ -81,7 +81,7 @@ These match the boundaries between characters, not the characters themselves.
         console.log(str.replace(re, 'x'));
         // Output: xally sellx seaxhellx by the seaxhore
 
-
+## ADDITIONAL RESOURCES:
 
 https://www.codecademy.com/resources/docs/javascript/regexp?page_ref=catalog
 
