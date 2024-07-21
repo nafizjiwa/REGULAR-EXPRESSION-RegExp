@@ -32,9 +32,8 @@ Object constructor compiles at runtime. Best used when the RegExp object changes
 
 |***RegExp***| ***FLAGS***|
 |:---:|:---:|
-| The flags |change the default match behavior of the RegExp object|
+| | Flags change the default match behavior of the RegExp object|
 |Flag|	Description|
-|:---:|:---:|
 |g|	Performs a global match, finding all matches rather than just the first.|
 |i|	Makes matches case-insensitive. Matches both uppercase and lowercase.|
 |m|	Performs multiline matches. (Changes behavior of ^,$)|
