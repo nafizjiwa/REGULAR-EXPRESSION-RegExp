@@ -53,7 +53,7 @@ Characters used to define a Regular Expression STRING.
 
 These match the boundaries between characters, not the characters themselves.
 
-|Characters	Meaning||
+|Characters|Meaning|
 |:--:|:---:|
 |^|	Matches the beginning of input. In multiline search, matches immediately after a line break character|
 |$|	Matches the end of input. In multiline search matches immediately before a line break character|
